@@ -24,6 +24,8 @@ body {
     display: block;
 }
 
+
+
 /* ======== Table ======== */
 
 .styled-table {
@@ -40,6 +42,12 @@ body {
     vertical-align: middle;
     border-bottom: 1px solid #e5e7eb;
     border-right: 1px solid #e5e7eb;
+}
+
+.party-logo {
+  width: 100%;
+  height: auto;
+  max-height: 80px;
 }
 
 /* remove right border on last cell in row */
@@ -74,6 +82,14 @@ body {
     width: 12px;
     height: 12px;
 }
+
+.styled-table a {
+	color:#0e55a7;
+  }
+
+  .styled-table a:hover {
+	color:#003f6d;
+  }
 
 /* ======== Table ======== */
 
