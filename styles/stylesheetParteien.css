@@ -30,35 +30,23 @@ body {
 
 .styled-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
     text-align: center;
     vertical-align: middle;
+    border-spacing: 1;
 }
 
 .styled-table th,
 .styled-table td {
-    padding: 40px 50px;
+    padding: 20px 25px;
     text-align: center;
-    vertical-align: middle;
-    border-bottom: 1px solid #e5e7eb;
-    border-right: 1px solid #e5e7eb;
+    vertical-align: top;
+    position: relative;
 }
 
-.party-logo {
-  width: 100%;
-  height: auto;
-  max-height: 80px;
-}
-
-/* remove right border on last cell in row */
-.styled-table th:last-child,
-.styled-table td:last-child {
-    border-right: none;
-}
-
-/* remove bottom border on last row */
-.styled-table tr:last-child td {
-    border-bottom: none;
+.styled-table tbody tr:nth-child(1),
+.styled-table tbody tr:nth-child(2) {
+    background-color: rgba(255, 255, 0, 0.2);
 }
 
 .styled-table th {
@@ -74,7 +62,7 @@ body {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    gap: 8px; /* space between the block and text */
+    gap: 8px; /* space between block and text */
 }
 
 .color-block {
@@ -91,6 +79,38 @@ body {
 	color:#003f6d;
   }
 
+  .pHighlight {
+	font-weight: bold;
+  }
+
+  .pHighlightQ {
+	font-size: 1.5em;
+	font-weight: bold;
+  }
+
+  .pHighlightAfD {
+	color: #008eca
+  }
+
+  .pHighlightGrüne {
+	color: #09aa64
+  }
+
+  .pHighlightLinke {
+	color: #7e0042
+  }
+
+  .pHighlightSPD {
+	color: #de2c35;
+  }
+
+  .pHighlightUnion {
+	font-weight: bold;
+  }
+
+  .pHighlightCSU {
+    color: #007fc8;
+  }
 /* ======== Table ======== */
 
 /* ========= HEADER ========= */
