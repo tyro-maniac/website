@@ -57,16 +57,11 @@ body {
 
 .pageContent {
 	color: black;
-	
+	text-align: center;
   background-color: white;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
-#centerP {
-	text-align: center;
-}
-
 
   .pHighlight {
 	font-weight: bold;
@@ -105,7 +100,7 @@ body {
 	color:#003f6d;
   }
 
-  /* ========= HEADER ========= */
+/* ========= HEADER ========= */
 
   #site-header {
 	display: flex;
@@ -160,9 +155,9 @@ body {
 	color: #003f6d;
   }
 
-  /* ========= HEADER ========= */
+/* ========= HEADER ========= */
 
-  /* ========= FOOTER ========= */
+/* ========= FOOTER ========= */
   
 footer {
   display: flex;
@@ -210,7 +205,57 @@ footer {
 
 /* ========= FOOTER ========= */
 
+/* ========= FACT BOX ========= */
 
+    .fact-box {
+      max-width: 600px;
+      color: black;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-left: 5px solid #0057b8;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .arrow {
+      font-size: 24px;
+      cursor: pointer;
+      user-select: none;
+      padding: 10px;
+      transition: color 0.2s;
+    }
+
+    .arrow:hover {
+      color: #0057b8;
+    }
+
+    .fact-content {
+      flex-grow: 1;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .fact-content strong {
+      color: #0057b8;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .fact-box a {
+      color: #015fa2;
+    }
+
+    .fact-box a:hover {
+      color:#003f6d
+    }
+
+/* ========= FACT BOX ========= */
   
   
   
