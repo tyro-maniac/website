@@ -7,7 +7,6 @@ body {
 
   .content {
 	display: flex;
-
 	color: black;
 
 	justify-content: left;
@@ -15,6 +14,7 @@ body {
   }
 
   .Sitze2125 {
+  flex: 0 1 auto;
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
@@ -41,6 +41,21 @@ body {
 	width: 100vw;
 	max-width: 100vw;
   }
+
+  .Länder2025 {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 85px;
+	display: block;
+	width: 100vw;
+	max-width: 100vw;
+  }
+
 
 /* ========= HEADER ========= */
 
