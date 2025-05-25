@@ -7,7 +7,7 @@
       "Der Bundestag ist mit rund 3 Millionen Besuchern pro Jahr das meistbesuchte Parlamentsgebäude der Welt.",
       "Die Parlamentsstenographen schreiben im Schnitt 400 Silben pro Minute.",
       "In der Wahlperiode 2002-2005 wurden 13623 Fragen an die Bundesregierung gestellt und 643 Gesetze verabschiedet, das alles innerhalb von nur 187 Sitzungen.",
-      "Reden im Bundestag sind öffentlich und können im <a href='https://www.youtube.com/@bundestag' target='_blank'>Livestream</a> verfolgt werden.",
+      "Reden im Bundestag sind öffentlich und können im <a href='https://www.youtube.com/@bundestag' class='no-deco' target='_blank'>Livestream</a> verfolgt werden.",
       "Die Sitzordnung im Bundestag ist nach politischem Spektrum (rechts - links) geordnet."
     ];
 

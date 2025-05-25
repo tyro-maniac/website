@@ -79,61 +79,68 @@ body {
     cursor: pointer;
   }
 
-    /* ========= HEADER ========= */
+/* ========= HEADER ========= */
 
-    #site-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: white;
-        padding: 15px 15px;
-        box-shadow: 0 2px 5px rgba(0,0,0,.1);
-    
-        height: auto;
-        overflow: visible;
-    
-        margin-top: 0px; 
-        margin-left: auto;
-        margin-right: auto;
-    
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-    
-        z-index: 1000;
-      }
-    
-      .logo img {
-        height: 80px;
-        width: auto;
-      }
-      
-      .headerText {
-        color: black;
-        text-align: left;
-      }
-    
-      .nav-links a {
-        margin-left: 0px;
-        margin-right: 30px;
-        text-decoration: none;
-        color: #015fa2;
-        font-weight: bold;
-        transition: color 0.2s;
-        justify-content: right;
-      }
-      
-      .nav-links a:not(:last-child)::after {
-        content: " |";
-        margin: 0 5px;
-      }
-    
-      .nav-links a:hover {
-        color: #003f6d;
-      }
-      
-      /* ========= HEADER ========= */
+  #site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 15px 15px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+
+	height: auto;
+	overflow: visible;
+
+	margin-top: 0px; 
+	margin-left: auto;
+	margin-right: auto;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	z-index: 1000;
+  }
+
+  .logo img {
+	height: 80px;
+	width: auto;
+	fill: currentColor;
+  }
+  
+  .headerText {
+	color: black;
+	text-align: left;
+  }
+
+  .nav-links a {
+	margin-left: 0px;
+	margin-right: 30px;
+	text-decoration: none;
+	color: #015fa2;
+	font-weight: bold;
+	transition: color 0.2s;
+	justify-content: right;
+  }
+  
+  .nav-links a:not(:last-child)::after {
+    content: " |";
+    margin: 0 5px;
+    color: #ddd;
+  }
+
+  .nav-links a:hover {
+	color: #003f6d;
+  }
+
+  .nav-links a[aria-current="page"] {
+    color: #003f6d;
+    font-weight: bolder;
+  }
+
+/* ========= HEADER ========= */
 
 /* ========= FOOTER ========= */
 footer {
@@ -173,6 +180,7 @@ footer {
 }
 
 .footer-links a {
+  text-decoration: none;
   color: #015fa2;
 }
 
