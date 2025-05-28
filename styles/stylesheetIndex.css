@@ -118,6 +118,14 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.pageContent h2 {
+  color:#003f6d;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #003f6d;
+  padding-bottom: 8px;
+}
+
   .pHighlight {
 	color: #0057b8;
   font-weight: bold;
