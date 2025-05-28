@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto_SemiCondensed-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
 	margin: 0;
 	background-color: #0e55a7;
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
   }
   
 .hero {
@@ -19,7 +26,6 @@ body {
 .hero-overlay {
   background: rgba(0, 0, 0, 0.4);
   padding: 48px 32px;
-  border-radius: 12px;
   backdrop-filter: blur(5px);
   max-width: 800px;
   animation: fadeIn 1.5s ease-in-out;
@@ -84,7 +90,7 @@ body {
 }
 
 .info-section li {
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
 }
 
 .info-section h3 {
@@ -276,7 +282,7 @@ footer {
       background-color: #f5f5f5;
       border-left: 5px solid #0057b8;
       border-radius: 8px;
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       position: relative;
       display: flex;
