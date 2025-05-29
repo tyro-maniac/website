@@ -126,6 +126,65 @@ body {
   padding-bottom: 8px;
 }
 
+.lineup {
+  margin-bottom: 4rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: .5rem;
+}
+
+.card-grid-breg {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: .5rem;
+}
+
+.card-grid-breg p, a {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.card-grid-breg a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: white;
+  padding: .5rem;
+  text-align: center;
+  transition: transform .2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: .5rem;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+
+.card h3 {
+  margin: 0.8rem 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
   .pHighlight {
 	color: #0057b8;
   font-weight: bold;
@@ -160,12 +219,18 @@ body {
 	font-weight: bold;
   }
 
+  .pHighlightCSU {
+    color: #007fc8;
+    font-weight: bold;
+  }
+
   .BTVInfo a {
 	color:#0e55a7;
   }
 
   .BTVInfo a:hover {
 	color:#003f6d;
+  
   }
 
 /* ========= HEADER ========= */
