@@ -11,22 +11,22 @@
       "Die Sitzordnung im Bundestag ist nach politischem Spektrum (links - rechts) geordnet."
     ];
 
-    let currentIndex = 0;
+    let currentIndex = 0; // keep track of fact # with index
 
     const factText = document.getElementById('factText');
     const prevArrow = document.getElementById('prevArrow');
-    const nextArrow = document.getElementById('nextArrow');
+    const nextArrow = document.getElementById('nextArrow'); // grab all elements
 
-    function updateFact(index) {
+    function updateFact(index) { // update fact on screen with the one with current index #
       factText.innerHTML = facts[index];
     }
 
-    prevArrow.addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + facts.length) % facts.length;
-      updateFact(currentIndex);
+    prevArrow.addEventListener('click', () => { // left arrow click = -1 to index = previous fact
+      currentIndex = (currentIndex - 1 + facts.length) % facts.length; // loop around if at beginning
+      updateFact(currentIndex); // update index #
     });
 
-    nextArrow.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % facts.length;
-      updateFact(currentIndex);
+    nextArrow.addEventListener('click', () => { // right arrow click = +1 to index = next fact
+      currentIndex = (currentIndex + 1) % facts.length; // loop around if at end
+      updateFact(currentIndex); // update index #
     });
