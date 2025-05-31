@@ -5,8 +5,10 @@
   font-style: normal;
 }
 
-body {
+html, body {
 	margin: 0;
+  padding: 0;
+  height: 100%;
 	background-color: #0e55a7;
 	color: white;
 	font-family: 'Roboto', sans-serif;
@@ -14,6 +16,7 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
   color: black;
   flex-direction: column;
   gap: 20px;
@@ -40,7 +43,7 @@ body {
 	background-color: white;
 	padding: 15px 15px;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1);
-
+  position: fixed;
 	height: auto;
 	overflow: visible;
 
@@ -108,7 +111,7 @@ footer {
   left: 0;
   right: 0;
   height: 40px;
-  position: fixed;
+  position: static; 
 }
 
 .footer-left {
