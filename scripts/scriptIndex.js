@@ -21,12 +21,12 @@
       factText.innerHTML = facts[index];
     }
 
-    prevArrow.addEventListener('click', () => { // left arrow click = -1 to index = previous fact
-      currentIndex = (currentIndex - 1 + facts.length) % facts.length; // loop around if at beginning
+    prevArrow.addEventListener('click', () => { // left arrow click
+      currentIndex = (currentIndex - 1 + facts.length) % facts.length; // -1 to index, loop around if at beginning
       updateFact(currentIndex); // update index #
     });
 
-    nextArrow.addEventListener('click', () => { // right arrow click = +1 to index = next fact
-      currentIndex = (currentIndex + 1) % facts.length; // loop around if at end
+    nextArrow.addEventListener('click', () => { // right arrow click 
+      currentIndex = (currentIndex + 1) % facts.length; // +1 to index, loop around if at end
       updateFact(currentIndex); // update index #
     });
