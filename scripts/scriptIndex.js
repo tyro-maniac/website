@@ -30,3 +30,6 @@
       currentIndex = (currentIndex + 1) % facts.length; // +1 to index, loop around if at end
       updateFact(currentIndex); // update index #
     });
+
+
+    
