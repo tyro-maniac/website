@@ -1,6 +1,6 @@
-const images = document.querySelectorAll('.pageContent img'); // get all img inside pagecontent
-const lightbox = document.getElementById('lightbox'); // get all lightbox elements
-const lightboxImage = document.getElementById('lightboxImage'); // get all lightbox elements
+const images = document.querySelectorAll('.pageContent img');
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightboxImage');
 const closeBtn = document.querySelector('.lightbox-content .close'); // get all lightbox elements
 
 // when image clicked, show it in lightbox
@@ -20,5 +20,3 @@ lightbox.addEventListener('click', (e) => {
     lightbox.classList.add('hidden'); // hide it when clicked outside
   }
 });
-
-
