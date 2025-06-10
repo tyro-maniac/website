@@ -134,6 +134,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: .5rem;
+  margin-bottom: 2rem;
 }
 
 .card-grid-breg {
@@ -183,6 +184,38 @@ body {
 .card p {
   font-size: 0.95rem;
   color: #555;
+}
+
+.LivestreamBox {
+  background: white;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.LivestreamBox h2 {
+  color:#003f6d;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #003f6d;
+  padding-bottom: 8px;
+}
+
+.videoBox {
+  position: relative;
+  padding-bottom: 56.25%; /* MAKES VIDEO 16:9 RATIO, DO NOT FUCK WITH THIS */
+  height: 0;
+  overflow: hidden;
+}
+
+.videoBox iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  border: 0;
+  transform: translate(-50%, -50%);
 }
 
   .pHighlight {
