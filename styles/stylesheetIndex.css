@@ -143,7 +143,7 @@ body {
   gap: .5rem;
 }
 
-.card-grid-breg p, a {
+.card-grid-breg p, .card-grid-breg a {
   text-align: center;
   font-size: 0.95rem;
   color: #555;
