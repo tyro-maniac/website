@@ -36,88 +36,88 @@ body {
 /* ======== Table ======== */
 
 .styled-table {
-    width: 100%;
-    border-collapse: separate;
-    text-align: center;
-    vertical-align: middle;
-    border-spacing: 1;
+  width: 100%;
+  border-collapse: separate;
+  text-align: center;
+  vertical-align: middle;
+  border-spacing: 1;
 }
 
 .styled-table th,
 .styled-table td {
-    padding: 20px 25px;
-    text-align: center;
-    vertical-align: top;
-    position: relative;
+  padding: 20px 25px;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
 }
 
 .styled-table tbody tr:nth-child(1),
 .styled-table tbody tr:nth-child(2) {
-    background-color: rgba(255, 255, 0, 0.2);
+  background-color: rgba(255, 255, 0, 0.2);
 }
 
 .styled-table th {
-    background-color: #f3f4f6;
-    font-weight: bold;
+  background-color: #f3f4f6;
+  font-weight: bold;
 }
 
 .styled-table tr:hover {
-    background-color: #f9fafb;
+  background-color: #f9fafb;
 }
 
 .main-subject {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 8px; /* space between block and text */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 8px; /* space between block and text */
 }
 
 .color-block {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
 }
 
 .styled-table a {
 	color:#0e55a7;
-  }
+}
 
-  .styled-table a:hover {
+.styled-table a:hover {
 	color:#003f6d;
-  }
+}
 
-  .pHighlight {
+.pHighlight {
 	font-weight: bold;
-  }
+}
 
-  .pHighlightQ {
+.pHighlightQ {
 	font-size: 1.5em;
 	font-weight: bold;
-  }
+}
 
-  .pHighlightAfD {
+.pHighlightAfD {
 	color: #008eca
-  }
+}
 
-  .pHighlightGrüne {
+.pHighlightGrüne {
 	color: #09aa64
-  }
+}
 
-  .pHighlightLinke {
+.pHighlightLinke {
 	color: #7e0042
-  }
+}
 
-  .pHighlightSPD {
+.pHighlightSPD {
 	color: #de2c35;
-  }
+}
 
-  .pHighlightUnion {
+.pHighlightUnion {
 	font-weight: bold;
-  }
+}
 
-  .pHighlightCSU {
-    color: #007fc8;
-  }
+.pHighlightCSU {
+  color: #007fc8;
+}
 /* ======== Table ======== */
 
 /* ========= HEADER ========= */
